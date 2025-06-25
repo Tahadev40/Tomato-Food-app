@@ -7,7 +7,7 @@ export const StoreContext = createContext(null)
 const StoreContextProvider = (props) => {
 
         const [cartItems, setCartItems] = useState({})
-        const url = "tomato-food-app-production.up.railway.app";
+        const url = "https://tomato-food-app-production.up.railway.app";
         const [token, setToken] = useState("");
         const [food_list,setFoodList] = useState([]);
 

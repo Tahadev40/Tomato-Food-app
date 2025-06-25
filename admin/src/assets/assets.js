@@ -14,4 +14,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'tomato-food-app-production.up.railway.app'
+export const url = 'https://tomato-food-app-production.up.railway.app'
