@@ -6,7 +6,7 @@ import axios from "axios";
 import { assets } from "../../assets/assets";
 import React from "react";
 
-const Order = ({ url }) => {
+const Order = ({url}) => {
   const [orders, setOrders] = useState([]);
 
   const fetchAllOrders = async () => {
